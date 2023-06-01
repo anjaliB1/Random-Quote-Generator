@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Anjali Baudh">
+    <meta name="description" content="Random quote generator made using HTML, CSS, JavaScript & API">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Generator</title>
+
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--CSS stylesheet-->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="head">
+            <h1>GENERATE A QUOTE</h1>
+        </div>
+        <div class="quote-contents">
+            <div id="quote-area" class="quote-area">
+                <i class="fa-solid fa-quote-left"></i>
+                <p id="quote" class="quote">Loading...</p>
+                <i class="fa-solid fa-quote-right"></i>
+            </div>
+            <p id="author" class="author">Loading...</p>
+        </div>
+        <div class="button-section">
+            <i id="copy" class="fa fa-copy" title="copy"></i>
+            <button id="button">New Quote</button>
+        </div>
+      </div>
+      <script src="script.js"></script>
+</body>
